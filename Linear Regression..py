@@ -10,7 +10,7 @@ import numpy as np
 df0 = pd.read_csv("Ecommerce_Customers.csv")
 columns = ["Email","Address","Avatar","Avg Session Length","Time on App","Time on Website","Length of Membership","Yearly Amount Spent"]
 df0 = pd.read_table("Ecommerce_Customers.csv", sep=',', header=None, names=columns)
-X = df0['Avg Session Length', 'Time on App','Time on Website', 'Length of Membership']
+X = df0[['Avg Session Length', 'Time on App','Time on Website', 'Length of Membership']]
 y = df0['Yearly Amount Spent']
 
 
