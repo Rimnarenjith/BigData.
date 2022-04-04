@@ -95,20 +95,6 @@ plt.scatter(x,y)
 plt.show()
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
